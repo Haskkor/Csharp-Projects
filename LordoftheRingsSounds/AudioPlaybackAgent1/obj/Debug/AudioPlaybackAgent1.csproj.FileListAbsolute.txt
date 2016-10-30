@@ -1,0 +1,4 @@
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\LordoftheRingsSounds\AudioPlaybackAgent1\Bin\Debug\AudioPlaybackAgent1.dll
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\LordoftheRingsSounds\AudioPlaybackAgent1\Bin\Debug\AudioPlaybackAgent1.pdb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\LordoftheRingsSounds\AudioPlaybackAgent1\obj\Debug\AudioPlaybackAgent1.dll
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\LordoftheRingsSounds\AudioPlaybackAgent1\obj\Debug\AudioPlaybackAgent1.pdb

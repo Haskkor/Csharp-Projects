@@ -1,0 +1,16 @@
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Release\LordoftheRingsSounds.dll
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Release\LordoftheRingsSounds.pdb
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Release\AppManifest.xaml
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Release\Properties\WMAppManifest.xml
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Release\LordoftheRingsSounds_Release_AnyCPU.xap
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Release\AudioPlaybackAgent1.dll
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Release\AudioPlaybackAgent1.pdb
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\LordoftheRingsSounds.csprojResolveAssemblyReference.cache
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\App.g.cs
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\MainPage.g.cs
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\LordoftheRingsSounds.g.resources
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\LordoftheRingsSounds.Resources.AppResources.resources
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\LordoftheRingsSounds.csproj.GenerateResource.Cache
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\LordoftheRingsSounds.dll
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\LordoftheRingsSounds.pdb
+C:\Users\Jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Release\XapCacheFile.xml

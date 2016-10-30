@@ -1,0 +1,1 @@
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)Content\obj\x86\Debug\Pong (Open Classroom)Content.contentprojResolveAssemblyReference.cache

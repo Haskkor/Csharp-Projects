@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7CD3FAF5-7A5F-4303-B9C0-967130AA73CF}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LordoftheRingsSounds</RootNamespace>
+    <AssemblyName>LordoftheRingsSounds</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>LordoftheRingsSounds_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>LordoftheRingsSounds.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\Categories.cs" />
+    <Compile Include="ViewModels\ItemViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\Models.cs" />
+    <Compile Include="ViewModels\Sounds.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <DesignData Include="SampleData\MainViewModelSampleData.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </DesignData>
+    <Page Include="SampleData\SampleData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png" />
+    <Content Include="Assets\Images\Background.png" />
+    <Content Include="Assets\Images\Cancel.png" />
+    <Content Include="Assets\Images\Check.png" />
+    <Content Include="Assets\Images\Creatures\Gollum.png" />
+    <Content Include="Assets\Images\Creatures\Grishnakh.png" />
+    <Content Include="Assets\Images\Creatures\Lurtz.png" />
+    <Content Include="Assets\Images\Creatures\Snaga.png" />
+    <Content Include="Assets\Images\Creatures\Treebeard.png" />
+    <Content Include="Assets\Images\Elves\Arwen.png" />
+    <Content Include="Assets\Images\Elves\Celeborn.png" />
+    <Content Include="Assets\Images\Elves\Elrond.png" />
+    <Content Include="Assets\Images\Elves\Galadriel.png" />
+    <Content Include="Assets\Images\Elves\Haldir.png" />
+    <Content Include="Assets\Images\Elves\Legolas.png" />
+    <Content Include="Assets\Images\Favs.png" />
+    <Content Include="Assets\Images\Fellowship\Aragorn.png" />
+    <Content Include="Assets\Images\Fellowship\Boromir.png" />
+    <Content Include="Assets\Images\Fellowship\Frodo.png" />
+    <Content Include="Assets\Images\Fellowship\Gandalf.png" />
+    <Content Include="Assets\Images\Fellowship\Gimli.png" />
+    <Content Include="Assets\Images\Fellowship\Legolas.png" />
+    <Content Include="Assets\Images\Fellowship\Meriadoc.png" />
+    <Content Include="Assets\Images\Fellowship\Peregrin.png" />
+    <Content Include="Assets\Images\Fellowship\Samwise.png" />
+    <Content Include="Assets\Images\Hobbits\Bilbo.png" />
+    <Content Include="Assets\Images\Hobbits\Frodo.png" />
+    <Content Include="Assets\Images\Hobbits\Gaffer.png" />
+    <Content Include="Assets\Images\Hobbits\Meriadoc.png" />
+    <Content Include="Assets\Images\Hobbits\OldNoakes.png" />
+    <Content Include="Assets\Images\Hobbits\Peregrin.png" />
+    <Content Include="Assets\Images\Hobbits\Samwise.png" />
+    <Content Include="Assets\Images\LogoLOTR.png" />
+    <Content Include="Assets\Images\Lotr_small.png" />
+    <Content Include="Assets\Images\Men\Aragorn.png" />
+    <Content Include="Assets\Images\Men\Boromir.png" />
+    <Content Include="Assets\Images\Men\Denethor.png" />
+    <Content Include="Assets\Images\Men\Eomer.png" />
+    <Content Include="Assets\Images\Men\Eowyn.png" />
+    <Content Include="Assets\Images\Men\Faramir.png" />
+    <Content Include="Assets\Images\Men\Gamling.png" />
+    <Content Include="Assets\Images\Men\Grima.png" />
+    <Content Include="Assets\Images\Men\Haleth.png" />
+    <Content Include="Assets\Images\Men\Hama.png" />
+    <Content Include="Assets\Images\Men\Theoden.png" />
+    <Content Include="Assets\Images\Play.png" />
+    <Content Include="Assets\Images\QuestionMark.png" />
+    <Content Include="Assets\Images\Save.png" />
+    <Content Include="Assets\PlayRing.png" />
+    <Content Include="Assets\Sounds\ConcerningHobbits.mp3" />
+    <Content Include="Assets\Sounds\Creatures\Gollum.mp3" />
+    <Content Include="Assets\Sounds\Creatures\Grishnakh.mp3" />
+    <Content Include="Assets\Sounds\Creatures\Lurtz.mp3" />
+    <Content Include="Assets\Sounds\Creatures\Snaga.mp3" />
+    <Content Include="Assets\Sounds\Creatures\Treebeard.mp3" />
+    <Content Include="Assets\Sounds\Elves\Arwen.mp3" />
+    <Content Include="Assets\Sounds\Elves\Celeborn.mp3" />
+    <Content Include="Assets\Sounds\Elves\Elrond.mp3" />
+    <Content Include="Assets\Sounds\Elves\Galadriel.mp3" />
+    <Content Include="Assets\Sounds\Elves\Haldir.mp3" />
+    <Content Include="Assets\Sounds\Elves\Legolas.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Aragorn.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Boromir.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Frodo.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Gandalf.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Gimli.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Legolas.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Meriadoc.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Peregrin.mp3" />
+    <Content Include="Assets\Sounds\Fellowship\Samwise.mp3" />
+    <Content Include="Assets\Sounds\Hobbits\Bilbo.mp3" />
+    <Content Include="Assets\Sounds\Hobbits\Frodo.mp3" />
+    <Content Include="Assets\Sounds\Hobbits\Gaffer.mp3" />
+    <Content Include="Assets\Sounds\Hobbits\Meriadoc.mp3" />
+    <Content Include="Assets\Sounds\Hobbits\OldNoakes.mp3" />
+    <Content Include="Assets\Sounds\Hobbits\Peregrin.mp3" />
+    <Content Include="Assets\Sounds\Hobbits\Samwise.mp3" />
+    <Content Include="Assets\Sounds\Men\Aragorn.mp3" />
+    <Content Include="Assets\Sounds\Men\Boromir.mp3" />
+    <Content Include="Assets\Sounds\Men\Denethor.mp3" />
+    <Content Include="Assets\Sounds\Men\Eomer.mp3" />
+    <Content Include="Assets\Sounds\Men\Eowyn.mp3" />
+    <Content Include="Assets\Sounds\Men\Faramir.mp3" />
+    <Content Include="Assets\Sounds\Men\Gamling.mp3" />
+    <Content Include="Assets\Sounds\Men\Grima.mp3" />
+    <Content Include="Assets\Sounds\Men\Haleth.mp3" />
+    <Content Include="Assets\Sounds\Men\Hama.mp3" />
+    <Content Include="Assets\Sounds\Men\Theoden.mp3" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png" />
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png" />
+    <Content Include="Assets\Tiles\IconicTileSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AudioPlaybackAgent1\AudioPlaybackAgent1.csproj">
+      <Project>{F9B4CBF3-8B0C-4AFD-8710-006DDDBEBBC9}</Project>
+      <Name>AudioPlaybackAgent1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

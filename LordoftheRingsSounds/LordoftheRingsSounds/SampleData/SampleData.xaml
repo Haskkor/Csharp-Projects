@@ -1,0 +1,48 @@
+﻿<viewModels:Models
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModels="clr-namespace:LordoftheRingsSounds.ViewModels">
+
+    <viewModels:Models.Fellowship>
+        <viewModels:Categories Title="Fellowship Sample">
+            <viewModels:Categories.ListSounds>
+                <viewModels:Sounds Title="Fellowship 1" Path="Fellowship.wav" ImagePath="Assets/Images/Aragorn.png"/>
+            </viewModels:Categories.ListSounds>
+        </viewModels:Categories>
+    </viewModels:Models.Fellowship>
+
+    <viewModels:Models.Creatures>
+        <viewModels:Categories Title="Creatures Sample">
+            <viewModels:Categories.ListSounds>
+                <viewModels:Sounds Title="Creatures 1" Path="Creatures.wav" />
+                <viewModels:Sounds Title="Creatures " Path="Creatures.wav" />
+            </viewModels:Categories.ListSounds>
+        </viewModels:Categories>
+    </viewModels:Models.Creatures>
+
+    <viewModels:Models.Elves>
+        <viewModels:Categories Title="Elves Sample">
+            <viewModels:Categories.ListSounds>
+                <viewModels:Sounds Title="Elves 1" Path="Elves.wav" />
+                <viewModels:Sounds Title="Elves 2" Path="Elves.wav" />
+            </viewModels:Categories.ListSounds>
+        </viewModels:Categories>
+    </viewModels:Models.Elves>
+
+    <viewModels:Models.Hobbits>
+        <viewModels:Categories Title="Hobbits Sample">
+            <viewModels:Categories.ListSounds>
+                <viewModels:Sounds Title="Hobbits 1" Path="Hobbits.wav" />
+            </viewModels:Categories.ListSounds>
+        </viewModels:Categories>
+    </viewModels:Models.Hobbits>
+
+    <viewModels:Models.Men>
+        <viewModels:Categories Title="Men Sample">
+            <viewModels:Categories.ListSounds>
+                <viewModels:Sounds Title="Men 1" Path="Men.wav" />
+            </viewModels:Categories.ListSounds>
+        </viewModels:Categories>
+    </viewModels:Models.Men>
+
+</viewModels:Models>

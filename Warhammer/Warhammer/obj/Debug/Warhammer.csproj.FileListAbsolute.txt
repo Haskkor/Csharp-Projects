@@ -1,0 +1,8 @@
+c:\users\jérémy\documents\visual studio 2012\Projects\Warhammer\Warhammer\bin\Debug\Warhammer.exe.config
+c:\users\jérémy\documents\visual studio 2012\Projects\Warhammer\Warhammer\bin\Debug\Warhammer.exe
+c:\users\jérémy\documents\visual studio 2012\Projects\Warhammer\Warhammer\bin\Debug\Warhammer.pdb
+c:\users\jérémy\documents\visual studio 2012\Projects\Warhammer\Warhammer\obj\Debug\Warhammer.csprojResolveAssemblyReference.cache
+c:\users\jérémy\documents\visual studio 2012\Projects\Warhammer\Warhammer\obj\Debug\Warhammer.Properties.Resources.resources
+c:\users\jérémy\documents\visual studio 2012\Projects\Warhammer\Warhammer\obj\Debug\Warhammer.csproj.GenerateResource.Cache
+c:\users\jérémy\documents\visual studio 2012\Projects\Warhammer\Warhammer\obj\Debug\Warhammer.exe
+c:\users\jérémy\documents\visual studio 2012\Projects\Warhammer\Warhammer\obj\Debug\Warhammer.pdb

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="fr-FR" />
+  <App xmlns="" ProductID="{7cd3faf5-7a5f-4303-b9c0-967130aa73cf}" Title="LordoftheRingsSounds" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="LordoftheRingsSounds author" Description="Sounds from Lord of the Rings. &#xD;&#xA;Sounds can be set as ringtones." Publisher="LordoftheRingsSounds" PublisherID="{e3f89d0f-dd39-4b12-a7e2-8af56781b25c}">
+    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+      <ExtendedTask Name="BackgroundTask">
+        <BackgroundServiceAgent Specifier="AudioPlayerAgent" Name="AudioPlaybackAgent1" Source="AudioPlaybackAgent1" Type="AudioPlaybackAgent1.AudioPlayer" />
+      </ExtendedTask>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="LordoftheRingsSoundsToken" TaskName="_default">
+        <TemplateCycle>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\Images\Lotr_small.png</SmallImageURI>
+          <Title></Title>
+          <Photo01ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Aragorn.png</Photo01ImageURI>
+          <Photo02ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Boromir.png</Photo02ImageURI>
+          <Photo03ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Frodo.png</Photo03ImageURI>
+          <Photo04ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Gandalf.png</Photo04ImageURI>
+          <Photo05ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Gimli.png</Photo05ImageURI>
+          <Photo06ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Legolas.png</Photo06ImageURI>
+          <Photo07ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Meriadoc.png</Photo07ImageURI>
+          <Photo08ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Peregrin.png</Photo08ImageURI>
+          <Photo09ImageURI IsRelative="true" IsResource="false">Assets\Images\Fellowship\Samwise.png</Photo09ImageURI>
+          <Count>0</Count>
+          <HasLarge>false</HasLarge>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+        </TemplateCycle>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
+<!-- WPSDK Version 8.0.9900 -->

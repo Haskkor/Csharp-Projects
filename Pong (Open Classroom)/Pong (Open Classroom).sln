@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong (Open Classroom)", "Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom).csproj", "{AD469EA0-16AA-4F50-8B22-305040C1DC33}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Pong (Open Classroom)Content", "Pong (Open Classroom)\Pong (Open Classroom)Content\Pong (Open Classroom)Content.contentproj", "{7CBA3C31-A9A8-45A0-8AFF-FC1D4A40B1E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD469EA0-16AA-4F50-8B22-305040C1DC33}.Debug|x86.ActiveCfg = Debug|x86
+		{AD469EA0-16AA-4F50-8B22-305040C1DC33}.Debug|x86.Build.0 = Debug|x86
+		{AD469EA0-16AA-4F50-8B22-305040C1DC33}.Release|x86.ActiveCfg = Release|x86
+		{AD469EA0-16AA-4F50-8B22-305040C1DC33}.Release|x86.Build.0 = Release|x86
+		{7CBA3C31-A9A8-45A0-8AFF-FC1D4A40B1E2}.Debug|x86.ActiveCfg = Debug|x86
+		{7CBA3C31-A9A8-45A0-8AFF-FC1D4A40B1E2}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

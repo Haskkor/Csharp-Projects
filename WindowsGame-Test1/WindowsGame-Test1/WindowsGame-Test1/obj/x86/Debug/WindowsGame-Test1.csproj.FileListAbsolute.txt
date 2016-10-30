@@ -1,0 +1,8 @@
+c:\users\jérémy\documents\visual studio 2012\Projects\WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1\bin\x86\Debug\WindowsGame-Test1.exe
+c:\users\jérémy\documents\visual studio 2012\Projects\WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1\bin\x86\Debug\WindowsGame-Test1.pdb
+c:\users\jérémy\documents\visual studio 2012\Projects\WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1\obj\x86\Debug\WindowsGame-Test1.csprojResolveAssemblyReference.cache
+c:\users\jérémy\documents\visual studio 2012\Projects\WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\jérémy\documents\visual studio 2012\Projects\WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1\obj\x86\Debug\WindowsGame-Test1.exe
+c:\users\jérémy\documents\visual studio 2012\Projects\WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1\obj\x86\Debug\WindowsGame-Test1.pdb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1\bin\x86\Debug\Content\chozo-mj-tux-aragorn-1886.xnb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1\bin\x86\Debug\Content\FontTest.xnb

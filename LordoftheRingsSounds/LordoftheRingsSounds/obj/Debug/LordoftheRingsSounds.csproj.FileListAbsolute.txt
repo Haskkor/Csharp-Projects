@@ -1,0 +1,16 @@
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Debug\LordoftheRingsSounds.dll
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Debug\LordoftheRingsSounds.pdb
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Debug\AppManifest.xaml
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Debug\LordoftheRingsSounds_Debug_AnyCPU.xap
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\App.g.cs
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\MainPage.g.cs
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\LordoftheRingsSounds.g.resources
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\LordoftheRingsSounds.Resources.AppResources.resources
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\LordoftheRingsSounds.csproj.GenerateResource.Cache
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\LordoftheRingsSounds.dll
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\LordoftheRingsSounds.pdb
+c:\users\jérémy\documents\visual studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\XapCacheFile.xml
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Debug\AudioPlaybackAgent1.dll
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\Bin\Debug\AudioPlaybackAgent1.pdb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\LordoftheRingsSounds\LordoftheRingsSounds\obj\Debug\LordoftheRingsSounds.csprojResolveAssemblyReference.cache

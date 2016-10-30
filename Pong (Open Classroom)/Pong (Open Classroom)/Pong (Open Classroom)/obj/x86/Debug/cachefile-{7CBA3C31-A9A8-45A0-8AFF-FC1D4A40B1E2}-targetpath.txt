@@ -1,0 +1,4 @@
+Content\Pokeball.xnb
+Content\Batte.xnb
+Content\CentralString.xnb
+Content\FontScore.xnb

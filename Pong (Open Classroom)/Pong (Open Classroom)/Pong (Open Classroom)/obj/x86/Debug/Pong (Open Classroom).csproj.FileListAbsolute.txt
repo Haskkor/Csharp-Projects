@@ -1,0 +1,10 @@
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\bin\x86\Debug\Content\Pokeball.xnb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\bin\x86\Debug\Content\Batte.xnb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\bin\x86\Debug\Content\CentralString.xnb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\bin\x86\Debug\Content\FontScore.xnb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\bin\x86\Debug\Pong (Open Classroom).exe
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\bin\x86\Debug\Pong (Open Classroom).pdb
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\obj\x86\Debug\Pong (Open Classroom).csprojResolveAssemblyReference.cache
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\obj\x86\Debug\Pong (Open Classroom).exe
+C:\Users\Jérémy\Documents\Visual Studio 2012\Projects\Pong (Open Classroom)\Pong (Open Classroom)\Pong (Open Classroom)\obj\x86\Debug\Pong (Open Classroom).pdb

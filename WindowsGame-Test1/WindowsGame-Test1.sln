@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsGame-Test1", "WindowsGame-Test1\WindowsGame-Test1\WindowsGame-Test1.csproj", "{36104F47-1E1C-4D7B-9C52-C1EF6DC588B6}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "WindowsGame-Test1Content", "WindowsGame-Test1\WindowsGame-Test1Content\WindowsGame-Test1Content.contentproj", "{4E5202F8-02F8-4AF0-A296-90264449608E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36104F47-1E1C-4D7B-9C52-C1EF6DC588B6}.Debug|x86.ActiveCfg = Debug|x86
+		{36104F47-1E1C-4D7B-9C52-C1EF6DC588B6}.Debug|x86.Build.0 = Debug|x86
+		{36104F47-1E1C-4D7B-9C52-C1EF6DC588B6}.Release|x86.ActiveCfg = Release|x86
+		{36104F47-1E1C-4D7B-9C52-C1EF6DC588B6}.Release|x86.Build.0 = Release|x86
+		{4E5202F8-02F8-4AF0-A296-90264449608E}.Debug|x86.ActiveCfg = Debug|x86
+		{4E5202F8-02F8-4AF0-A296-90264449608E}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
